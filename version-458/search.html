@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索｜国产视频片库</title>
+  <meta name="description" content="围绕国产电影等视频内容，提供免费在线观看服务，高清电影片库每日收录最新大片，支持按上映日期、类型与评分排序浏览。">
+  <meta name="keywords" content="国产视频,免费在线观看,高清电影片库,最新大片,在线播放,视频资源,免费,电影大全">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="主导航">
+      <a class="brand" href="index.html" aria-label="返回首页">
+        <span class="brand-mark">▶</span>
+        <span class="brand-text">
+          <strong>国产视频片库</strong>
+          <small>高清电影 · 最新大片</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="展开导航" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="site-nav-links">
+        <a class="nav-link " href="index.html">首页</a>
+        <a class="nav-link " href="categories.html">分类片库</a>
+        <a class="nav-link " href="rank.html">热播榜</a>
+      </div>
+      <form class="nav-search js-search-form" action="search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、年份、类型" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Search</span>
+        <h1>影片搜索</h1>
+        <p>可按影片名、年份、地区、类型、标签与剧情关键词检索片库。</p>
+      </div>
+    </section>
+    <section class="section section-soft">
+      <div class="container search-page-panel">
+        <form class="big-search js-search-form" action="search.html" method="get">
+          <input type="search" name="q" placeholder="输入想看的影片或关键词" autocomplete="off">
+          <button type="submit">开始搜索</button>
+        </form>
+        <div class="search-summary" data-search-summary>输入关键词后显示结果。</div>
+      </div>
+      <div class="container movie-grid movie-grid-4" data-search-results></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-brand" href="index.html">国产视频片库</a>
+        <p>围绕国产电影等视频内容，提供免费在线观看服务，高清电影片库每日收录最新大片，支持按上映日期、类型与评分排序浏览。</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类片库</a>
+        <a href="rank.html">热播榜</a>
+        <a href="search.html">影片搜索</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/search-data.js"></script>
+  <script type="module" src="assets/site.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
